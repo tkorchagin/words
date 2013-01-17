@@ -11,7 +11,6 @@
 #import <BlocksKit/BlocksKit.h>
 
 @interface MainViewController ()
-@property (strong,nonatomic) NSDictionary *dictionaries;
 @end
 
 @implementation MainViewController
@@ -26,26 +25,30 @@
 	return self;
 }
 
+
 - (NSDictionary*) loadDictionaries
 {
 	NSError * __autoreleasing *error = nil;
-	NSString *dictJSONList = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Dictionaries" ofType:@"json" inDirectory:@"Dictionaries"]
+	NSString *dictJSONList = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Dictionaries"
+																  ofType:@"json"
+															   inDirectory:@"Dictionaries"]
 									   encoding:NSUTF8StringEncoding
 										error:error];
-	NSMutableDictionary *dictList = [dictJSONList mutableObjectFromJSONString];
-	
 	if (error)
 	{
 		NSLog(@"Can't open the dictionaries list");
 		return nil;
 	}
-	
+	NSMutableDictionary *dictList = [dictJSONList mutableObjectFromJSONString];
+
 	BKKeyValueTransformBlock parseDict = ^id(NSString *key, NSString *obj)
 	{
 		NSError * __autoreleasing *error = nil;
 		
 		NSString *fileName = obj;
-		NSString *fileContent = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:fileName ofType:@"json" inDirectory:@"Dictionaries"]
+		NSString *fileContent = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:fileName
+																	 ofType:@"json"
+																  inDirectory:@"Dictionaries"]
 										  encoding:NSUTF8StringEncoding
 										     error:error];
 		if (error) return nil;
@@ -55,7 +58,6 @@
 	};
 	
 	[dictList performMap:parseDict];
-
 	return dictList;
 }
 

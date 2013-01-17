@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MainViewController : UIViewController
+@property (strong,nonatomic) NSDictionary *dictionaries;
+@property (strong,nonatomic) NSString *currentDict;
 
 @end

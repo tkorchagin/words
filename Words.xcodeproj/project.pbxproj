@@ -17,6 +17,7 @@
 		55015F4C16A7783A00C5CDBC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55015F4B16A7783A00C5CDBC /* Default.png */; };
 		55015F4E16A7783A00C5CDBC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55015F4D16A7783A00C5CDBC /* Default@2x.png */; };
 		55015F5016A7783A00C5CDBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55015F4F16A7783A00C5CDBC /* Default-568h@2x.png */; };
+		5829547116A7958E008F05DC /* DictionariesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829547016A7958E008F05DC /* DictionariesListViewController.m */; };
 		582A854A16A78C6F003E3EE6 /* Dictionaries in Resources */ = {isa = PBXBuildFile; fileRef = 582A854916A78C6F003E3EE6 /* Dictionaries */; };
 		58FE534116A77D53008E9202 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FE534016A77D53008E9202 /* MainStoryboard.storyboard */; };
 		58FE534816A78365008E9202 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FE534716A78365008E9202 /* MainViewController.m */; };
@@ -37,6 +38,8 @@
 		55015F4B16A7783A00C5CDBC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		55015F4D16A7783A00C5CDBC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		55015F4F16A7783A00C5CDBC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5829546F16A7958E008F05DC /* DictionariesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionariesListViewController.h; sourceTree = "<group>"; };
+		5829547016A7958E008F05DC /* DictionariesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionariesListViewController.m; sourceTree = "<group>"; };
 		582A854916A78C6F003E3EE6 /* Dictionaries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dictionaries; sourceTree = "<group>"; };
 		58FE534016A77D53008E9202 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		58FE534616A78365008E9202 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				55015F4916A7783900C5CDBC /* TKAppDelegate.m */,
 				58FE534616A78365008E9202 /* MainViewController.h */,
 				58FE534716A78365008E9202 /* MainViewController.m */,
+				5829546F16A7958E008F05DC /* DictionariesListViewController.h */,
+				5829547016A7958E008F05DC /* DictionariesListViewController.m */,
 				58FE534016A77D53008E9202 /* MainStoryboard.storyboard */,
 				582A854916A78C6F003E3EE6 /* Dictionaries */,
 				55015F4016A7783900C5CDBC /* Supporting Files */,
@@ -205,6 +210,7 @@
 				55015F4616A7783900C5CDBC /* main.m in Sources */,
 				55015F4A16A7783900C5CDBC /* TKAppDelegate.m in Sources */,
 				58FE534816A78365008E9202 /* MainViewController.m in Sources */,
+				5829547116A7958E008F05DC /* DictionariesListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

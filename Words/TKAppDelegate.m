@@ -8,6 +8,7 @@
 
 #import "TKAppDelegate.h"
 #import <ViewDeck/IIViewDeckController.h>
+#import <ViewDeck/IISideController.h>
 
 @implementation TKAppDelegate
 
@@ -20,9 +21,11 @@
 
 	id mainVC = [mainStoryboard instantiateViewControllerWithIdentifier:@"Main"];
 	id dictSelVC = [mainStoryboard instantiateViewControllerWithIdentifier:@"DictSelect"];
-	viewDeckVC = [viewDeckVC initWithCenterViewController:mainVC leftViewController:dictSelVC];
+	viewDeckVC = [viewDeckVC initWithCenterViewController:mainVC
+						     leftViewController:[[IISideController alloc] initWithViewController:dictSelVC]];
 	
 	self.window.rootViewController = viewDeckVC;
+	[self.window makeKeyAndVisible];
 	
 	return YES;
 }
