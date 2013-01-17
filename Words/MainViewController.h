@@ -13,4 +13,5 @@
 @property (strong,nonatomic) NSDictionary *dictionaries;
 @property (strong,nonatomic) NSString *currentDict;
 @property (assign) IBOutlet AnimatedLabel	*label;
+@property (assign) IBOutlet AnimatedLabel *dictName;
 @end

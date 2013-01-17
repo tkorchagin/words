@@ -20,13 +20,16 @@
 {
 	if (self = [super initWithCoder:aDecoder])
 	{
-		self.dictionaries = [self loadDictionaries];
-		self.currentDict = self.dictionaries.allKeys[0]; // Тут ставим дефолтный дикт
-		
 		// Обзервинг
+		__block id pseudoSelf = self;
 		[self addObserverForKeyPath:@"currentDict" task:^(id sender) {
-			NSLog(@"New dict selected! Now it's %@",self.currentDict);
+			[self.dictName setText:self.currentDict animated:YES];
+			[pseudoSelf update:nil];
 		}];
+		
+		self.dictionaries = [self loadDictionaries];
+
+		
 	}
 	
 	return self;
@@ -68,12 +71,22 @@
 	return dictList;
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+	self.currentDict = self.dictionaries.allKeys[0]; // Тут ставим дефолтный дикт
+}
 
 #pragma mark GUI Stuff
 - (IBAction)openLeftSide:(id)sender
 {
 	[self.viewDeckController openLeftViewAnimated:YES];
 }
+
+-(IBAction)openRightSide:(id)sender
+{
+	[self.viewDeckController openRightViewAnimated:YES];
+}
+
 - (IBAction)update:(id)sender
 {
 	NSArray *array = self.dictionaries[self.currentDict];

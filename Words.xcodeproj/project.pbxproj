@@ -19,6 +19,8 @@
 		55015F5016A7783A00C5CDBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55015F4F16A7783A00C5CDBC /* Default-568h@2x.png */; };
 		5829547116A7958E008F05DC /* DictionariesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829547016A7958E008F05DC /* DictionariesListViewController.m */; };
 		582A854A16A78C6F003E3EE6 /* Dictionaries in Resources */ = {isa = PBXBuildFile; fileRef = 582A854916A78C6F003E3EE6 /* Dictionaries */; };
+		5873AC8A16A7CBBE006B0C72 /* 13694 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5873AC8916A7CBBE006B0C72 /* 13694 3.png */; };
+		5873AC8C16A7CBC3006B0C72 /* 13694 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5873AC8B16A7CBC3006B0C72 /* 13694 2.png */; };
 		58C4AC3116A7AA4000895FF9 /* audio-4-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C4AC1F16A7AA4000895FF9 /* audio-4-icon.png */; };
 		58C4AC3216A7AA4000895FF9 /* audio-4-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C4AC2016A7AA4000895FF9 /* audio-4-icon@2x.png */; };
 		58C4AC3316A7AA4000895FF9 /* audio-5-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C4AC2116A7AA4000895FF9 /* audio-5-icon.png */; };
@@ -60,6 +62,8 @@
 		5829546F16A7958E008F05DC /* DictionariesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionariesListViewController.h; sourceTree = "<group>"; };
 		5829547016A7958E008F05DC /* DictionariesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionariesListViewController.m; sourceTree = "<group>"; };
 		582A854916A78C6F003E3EE6 /* Dictionaries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dictionaries; sourceTree = "<group>"; };
+		5873AC8916A7CBBE006B0C72 /* 13694 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13694 3.png"; sourceTree = "<group>"; };
+		5873AC8B16A7CBC3006B0C72 /* 13694 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13694 2.png"; sourceTree = "<group>"; };
 		58C4AC1F16A7AA4000895FF9 /* audio-4-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "audio-4-icon.png"; path = "icons/audio-4-icon.png"; sourceTree = "<group>"; };
 		58C4AC2016A7AA4000895FF9 /* audio-4-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "audio-4-icon@2x.png"; path = "icons/audio-4-icon@2x.png"; sourceTree = "<group>"; };
 		58C4AC2116A7AA4000895FF9 /* audio-5-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "audio-5-icon.png"; path = "icons/audio-5-icon.png"; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 		55015F2A16A7783900C5CDBC = {
 			isa = PBXGroup;
 			children = (
+				5873AC8B16A7CBC3006B0C72 /* 13694 2.png */,
+				5873AC8916A7CBBE006B0C72 /* 13694 3.png */,
 				55015F3F16A7783900C5CDBC /* Words */,
 				55015F3816A7783900C5CDBC /* Frameworks */,
 				55015F3616A7783900C5CDBC /* Products */,
@@ -265,6 +271,8 @@
 				58C4AC4016A7AA4000895FF9 /* list-view-icon@2x.png in Resources */,
 				58C4AC4116A7AA4000895FF9 /* refresh-icon.png in Resources */,
 				58C4AC4216A7AA4000895FF9 /* refresh-icon@2x.png in Resources */,
+				5873AC8A16A7CBBE006B0C72 /* 13694 3.png in Resources */,
+				5873AC8C16A7CBC3006B0C72 /* 13694 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

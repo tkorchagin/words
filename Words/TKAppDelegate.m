@@ -18,12 +18,16 @@
 	
 	UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
 	IIViewDeckController *viewDeckVC = [IIViewDeckController alloc];
-
+	
 	id mainVC = [mainStoryboard instantiateViewControllerWithIdentifier:@"Main"];
 	id dictSelVC = [mainStoryboard instantiateViewControllerWithIdentifier:@"DictSelect"];
+	id infoVC = [mainStoryboard instantiateViewControllerWithIdentifier: @"Info"];
+	
 	viewDeckVC = [viewDeckVC initWithCenterViewController:mainVC
-						     leftViewController:[[IISideController alloc] initWithViewController:dictSelVC]];
+						     leftViewController:[[IISideController alloc] initWithViewController:dictSelVC]
+						    rightViewController:[[IISideController alloc] initWithViewController:infoVC]];
 	viewDeckVC.leftSize = 50;
+	viewDeckVC.rightSize = 50;
 	viewDeckVC.centerhiddenInteractivity = IIViewDeckCenterHiddenNotUserInteractiveWithTapToClose;
 	self.window.rootViewController = viewDeckVC;
 	[self.window makeKeyAndVisible];
