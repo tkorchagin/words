@@ -23,7 +23,8 @@
 	id dictSelVC = [mainStoryboard instantiateViewControllerWithIdentifier:@"DictSelect"];
 	viewDeckVC = [viewDeckVC initWithCenterViewController:mainVC
 						     leftViewController:[[IISideController alloc] initWithViewController:dictSelVC]];
-	
+	viewDeckVC.leftSize = 50;
+	viewDeckVC.centerhiddenInteractivity = IIViewDeckCenterHiddenNotUserInteractiveWithTapToClose;
 	self.window.rootViewController = viewDeckVC;
 	[self.window makeKeyAndVisible];
 	

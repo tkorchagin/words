@@ -18,7 +18,10 @@
 
 @implementation DictionariesListViewController
 
+- (void)viewDidLoad
+{
 
+}
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -47,7 +50,7 @@
 }
 
 
-#pragma mark - Table view data source
+#pragma mark - Table view data 
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -78,8 +81,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	[tableView deselectRowAtIndexPath:indexPath animated:YES];
-	[self.viewDeckController closeLeftViewAnimated:YES];
+	[self.viewDeckController closeLeftViewAnimated:YES completion:^(IIViewDeckController *controller, BOOL success)
+	{
+		if (!success) return;
+		self.mainVC.currentDict = self.dictNames[indexPath.row];
+	}];
+
 }
 
 @end

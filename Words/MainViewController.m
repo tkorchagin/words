@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import <JSONKit/JSONKit.h>
 #import <BlocksKit/BlocksKit.h>
+#import <ViewDeck/IIViewDeckController.h>
 
 @interface MainViewController ()
 @end
@@ -20,6 +21,12 @@
 	if (self = [super initWithCoder:aDecoder])
 	{
 		self.dictionaries = [self loadDictionaries];
+		self.currentDict = self.dictionaries.allKeys[0]; // Тут ставим дефолтный дикт
+		
+		// Обзервинг
+		[self addObserverForKeyPath:@"currentDict" task:^(id sender) {
+			NSLog(@"New dict selected! Now it's %@",self.currentDict);
+		}];
 	}
 	
 	return self;
@@ -61,4 +68,16 @@
 	return dictList;
 }
 
+
+#pragma mark GUI Stuff
+- (IBAction)openLeftSide:(id)sender
+{
+	[self.viewDeckController openLeftViewAnimated:YES];
+}
+- (IBAction)update:(id)sender
+{
+	NSArray *array = self.dictionaries[self.currentDict];
+	NSInteger element = arc4random() % array.count;
+	[self.label setText:array[element] animated:YES];
+}
 @end

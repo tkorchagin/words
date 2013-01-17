@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AnimatedLabel.h"
 
 @interface MainViewController : UIViewController
 @property (strong,nonatomic) NSDictionary *dictionaries;
 @property (strong,nonatomic) NSString *currentDict;
-
+@property (assign) IBOutlet AnimatedLabel	*label;
 @end
