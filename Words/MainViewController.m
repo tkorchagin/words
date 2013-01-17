@@ -28,7 +28,9 @@
 		}];
 		
 		self.dictionaries = [self loadDictionaries];
-
+		
+		
+		
 		
 	}
 	
@@ -73,7 +75,14 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-	self.currentDict = self.dictionaries.allKeys[0]; // Тут ставим дефолтный дикт
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSString *lastDict = [defaults objectForKey:@"lastDict"];
+	if (lastDict || [self.dictionaries.allKeys containsObject:lastDict])
+	{
+		self.currentDict = lastDict;
+	} else {
+		self.currentDict = self.dictionaries.allKeys[0]; // Тут ставим дефолтный дикт
+	}
 }
 
 #pragma mark GUI Stuff

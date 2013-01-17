@@ -103,6 +103,9 @@
 		 self.currentDict = self.dictNames[indexPath.row];
 		 [tableView reloadData];
 		 [tableView selectRowAtIndexPath:indexPath animated:NO scrollPosition:UITableViewScrollPositionNone];
+		 NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+		 [defaults setObject:self.currentDict forKey:@"lastDict"];
+		 [defaults synchronize];
 	 }];
 	
 }

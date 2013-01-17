@@ -7,7 +7,7 @@
 //
 
 #import "AnimatedLabel.h"
-#define DELAY 0.05
+#define DELAY 0.01
 @interface AnimatedLabel ()
 @property (strong) NSOperationQueue *operationQueue;
 
@@ -29,7 +29,7 @@
 - (void)setText:(NSString *)text animated:(BOOL)animated
 {
 	if (!animated) return [self setText:text];
-	
+	[self.operationQueue cancelAllOperations];
 	NSInvocationOperation *clearing = [[NSInvocationOperation	alloc] initWithTarget:self
 											 selector:@selector(clearStringWithDelay)
 											   object:nil];
