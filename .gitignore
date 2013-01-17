@@ -21,3 +21,4 @@ CVS
 *.lock
 Pods/*
 Podfile.lock
+Words.xcodeproj/project.xcworkspace/xcuserdata/tkorchagin.xcuserdatad/UserInterfaceState.xcuserstate
