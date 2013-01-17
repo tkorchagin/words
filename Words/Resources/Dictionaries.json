@@ -1,0 +1,8 @@
+{
+	"Лёгкие": "easy_ru.json",
+	"Нормальные": "normal_ru.json",
+	"Сложные": "hard_ru.json",
+	"Easy": "easy_eng.json",
+	"Normal": "normal_eng.json",
+	"Hard": "hard_eng.json"
+}
