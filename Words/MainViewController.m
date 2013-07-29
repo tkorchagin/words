@@ -41,9 +41,10 @@
 - (NSDictionary*) loadDictionaries
 {
 	NSError * __autoreleasing *error = nil;
-	NSString *dictJSONList = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Dictionaries"
-																  ofType:@"json"
-															   inDirectory:@"Dictionaries"]
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"Dictionaries"
+													 ofType:@"json"
+												inDirectory:@"Dictionaries"];
+	NSString *dictJSONList = [NSString stringWithContentsOfFile:path
 									   encoding:NSUTF8StringEncoding
 										error:error];
 	if (error)
@@ -58,14 +59,16 @@
 		NSError * __autoreleasing *error = nil;
 		
 		NSString *fileName = obj;
-		NSString *fileContent = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:fileName
-																	 ofType:@"json"
-																  inDirectory:@"Dictionaries"]
+		NSString *path = [[NSBundle mainBundle] pathForResource:fileName
+														 ofType:@"json"
+													inDirectory:@"Dictionaries"];
+		NSString *fileContent = [NSString stringWithContentsOfFile:path
 										  encoding:NSUTF8StringEncoding
 										     error:error];
 		if (error) return nil;
 		
 		NSArray *words = [fileContent objectFromJSONString];
+		NSLog(@"%@",words);
 		return words;
 	};
 	
@@ -73,7 +76,7 @@
 	return dictList;
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)viewDidLoad
 {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	NSString *lastDict = [defaults objectForKey:@"lastDict"];
@@ -83,6 +86,25 @@
 	} else {
 		self.currentDict = self.dictionaries.allKeys[0]; // Тут ставим дефолтный дикт
 	}
+	
+	self.label.font = [self.label.font fontWithSize:[self wordLabelFontSize]];
+	self.dictName.font = [self.dictName.font fontWithSize:[self dictLabelFontSize]];
+}
+
+- (CGFloat) wordLabelFontSize
+{
+	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+		return 60;
+	else
+		return 38;
+}
+
+- (CGFloat) dictLabelFontSize
+{
+	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+		return 32;
+	else
+		return 20;
 }
 
 #pragma mark GUI Stuff

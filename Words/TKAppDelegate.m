@@ -21,13 +21,23 @@
 	
 	id mainVC = [mainStoryboard instantiateViewControllerWithIdentifier:@"Main"];
 	id dictSelVC = [mainStoryboard instantiateViewControllerWithIdentifier:@"DictSelect"];
-	id infoVC = [mainStoryboard instantiateViewControllerWithIdentifier: @"Info"];
-	
+	id menuVC = [mainStoryboard instantiateViewControllerWithIdentifier: @"Menu"];
+	UINavigationController *menuNavVC = [[UINavigationController alloc] initWithRootViewController:menuVC];
+	menuNavVC.navigationBar.barStyle = UIBarStyleBlack;
 	viewDeckVC = [viewDeckVC initWithCenterViewController:mainVC
 						     leftViewController:[[IISideController alloc] initWithViewController:dictSelVC]
-						    rightViewController:[[IISideController alloc] initWithViewController:infoVC]];
-	viewDeckVC.leftSize = 50;
-	viewDeckVC.rightSize = 50;
+						    rightViewController:[[IISideController alloc] initWithViewController:menuNavVC]];
+	
+	CGFloat screenWidth = [[UIScreen mainScreen] bounds].size.width;
+	viewDeckVC.leftSize = screenWidth - 270;
+	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+	{
+		viewDeckVC.rightSize = screenWidth - 500;
+	}else{
+		viewDeckVC.rightSize = screenWidth - 270;
+	}
+	
+	
 	viewDeckVC.centerhiddenInteractivity = IIViewDeckCenterHiddenNotUserInteractiveWithTapToClose;
 	self.window.rootViewController = viewDeckVC;
 	[self.window makeKeyAndVisible];
