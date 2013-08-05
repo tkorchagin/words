@@ -12,6 +12,7 @@
 @interface MainViewController : UIViewController
 @property (strong,nonatomic) NSDictionary *dictionaries;
 @property (strong,nonatomic) NSString *currentDict;
-@property (assign) IBOutlet AnimatedLabel	*label;
+@property (assign, atomic) IBOutlet AnimatedLabel	*label;
+@property (assign, atomic) IBOutlet AnimatedLabel	*prevLabel;
 @property (assign) IBOutlet AnimatedLabel *dictName;
 @end

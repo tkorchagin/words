@@ -28,10 +28,6 @@
 		}];
 		
 		self.dictionaries = [self loadDictionaries];
-		
-		
-		
-		
 	}
 	
 	return self;
@@ -88,6 +84,7 @@
 	}
 	
 	self.label.font = [self.label.font fontWithSize:[self wordLabelFontSize]];
+	self.prevLabel.font = [self.prevLabel.font fontWithSize:[self prevWordLabelFontSize]];
 	self.dictName.font = [self.dictName.font fontWithSize:[self dictLabelFontSize]];
 }
 
@@ -97,6 +94,14 @@
 		return 60;
 	else
 		return 38;
+}
+
+- (CGFloat) prevWordLabelFontSize
+{
+	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+		return 36;
+	else
+		return 22;
 }
 
 - (CGFloat) dictLabelFontSize
@@ -120,8 +125,49 @@
 
 - (IBAction)update:(id)sender
 {
+
+	if (![self.label.text isEqualToString:@""])
+	{
+		CGRect originalFrame = self.label.frame;
+		UIFont *originalFont = self.label.font;
+		UIColor *originalColor = self.label.textColor;
+		CGRect screenRect = [[UIScreen mainScreen] bounds];
+		UIButton *button = (UIButton*)sender;
+		button.enabled = NO;
+
+		[UIView animateWithDuration:0.4 animations:^{
+			self.label.frame = self.prevLabel.frame;
+			self.label.font = self.prevLabel.font;
+			self.label.textColor = self.prevLabel.textColor;
+			
+			CGRect frame = self.prevLabel.frame;
+			frame.origin.y =  screenRect.size.height;
+			self.prevLabel.frame = frame;
+
+		} completion:^(BOOL finished) {
+			self.prevLabel.text = @"";
+			self.prevLabel.frame = originalFrame;
+			self.prevLabel.font = originalFont;
+			self.prevLabel.textColor = originalColor;
+			
+			AnimatedLabel *tmp = self.label;
+			self.label = self.prevLabel;
+			self.prevLabel = tmp;
+			
+			[self updateText];
+			button.enabled = YES;
+		}];
+	}else{
+		[self updateText];
+	}
+	
+}
+
+- (void) updateText
+{
 	NSArray *array = self.dictionaries[self.currentDict];
 	NSInteger element = arc4random() % array.count;
 	[self.label setText:array[element] animated:YES];
+	
 }
 @end
