@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="13A524d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="5aH-AY-k9b">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E3067" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="5aH-AY-k9b">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -123,10 +123,8 @@
                                 <attributedString key="attributedText">
                                     <fragment content="О главном:">
                                         <attributes>
-                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" minimumLineHeight="18" defaultTabInterval="36"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="20" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" minimumLineHeight="18" defaultTabInterval="36"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -134,17 +132,15 @@
 Cg
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" minimumLineHeight="18" defaultTabInterval="36"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" minimumLineHeight="18" defaultTabInterval="36"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">
 Приложение для тех, кто любит играть в Шляпу, Alias, Крокодила или Шарады и не любит ругаться с друзьями.
 
-Мы одержимы идеей сделать игры проще и ближе без сложных наворотов. Наше решение — простое и гибкое приложение, которое содержит вручную отобранные словари.
+Мы можем сделать игры проще и ближе без сложных наворотов. Наше решение — простое и гибкое приложение, которое содержит вручную отобранные словари.
 
 Как показывает опыт, игроки часто спорят друг с другом, когда кто-то из них загадывает неизвестное другим слово (например, из своей профессиональной области). Если вы возьмете слова для игры из нашего приложения, такой проблемы у вас не возникнет. Мы вручную отобрали «хорошие» слова из одного из толковых словарей русского языка. И даже если какое-то слово вам в итоге не понравится, вы будете ругать не друг друга, а создателей приложения.
 
@@ -152,12 +148,29 @@ Cg
 
 Попробуйте и расскажите нам, что вы думаете.
 
-Приятной игры.</string>
+</string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" minimumLineHeight="18" defaultTabInterval="36"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" minimumLineHeight="18" defaultTabInterval="36"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Приятной игры.">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -403,10 +416,17 @@ Cg
                                 <attributedString key="attributedText">
                                     <fragment content="Шляпа">
                                         <attributes>
+                                            <font key="NSFont" size="20" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
                                             <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -414,29 +434,14 @@ Cg
 Cg
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Цель игры">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -444,20 +449,16 @@ Cg
 
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">Общий ход игры:
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -465,38 +466,30 @@ Cg
 
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">Типы игры:
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">Игра может проводиться как в парном, так и в личном зачётах.
  </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Парный зачёт: ">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -505,30 +498,23 @@ Cg
 
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">Личный зачёт:
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Игроки участвуют в игре лично, постоянных пар нет. Игра проходит по принципу “каждый - каждому”, т.е. каждый игрок по одному разу загадывает слова каждому другому игроку. Каждое отгаданное слово приносит по очку загадавшему и отгадавшему его игрокам. Порядок смены игроков определяется проводящим игру судьёй.
-</string>
+                                        <string key="content">Игроки участвуют в игре лично, постоянных пар нет. Игра проходит по принципу “каждый - каждому”, т.е. каждый игрок по одному разу загадывает слова каждому другому игроку. Каждое отгаданное слово приносит по очку загадавшему и отгадавшему его игрокам. Порядок смены игроков определяется проводящим игру судьёй.</string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -558,10 +544,17 @@ Cg
                                 <attributedString key="attributedText">
                                     <fragment content="Редакция для турнира:">
                                         <attributes>
+                                            <font key="NSFont" size="20" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
                                             <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -569,291 +562,216 @@ Cg
 Cg
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="1.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Обычно за одним столом играют 6-10 человек.
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="2.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Загадываемые слова — существительные нарицательные в единственном числе (если оно есть; «ножницы» и т.п. загадывать можно).
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="3.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Объясняющему запрещено произносить слова, однокоренные загаданному.
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="4.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Объясняющему запрещено произносить слова, созвучные загаданному.
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="5.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Объясняющий не может никаким образом апеллировать к буквам или морфемам загаданного слова («первая буква – такая же, как и у …», «суффикс – тот же, что у слова …» и т.п.)
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="6.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Также запрещено объяснять слова жестами и прямо указывать на загаданные предметы, если они находятся в комнате (например, «вон та штука с дверцами»).
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="7.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Ограничения 2-5 относятся не только к тому слову, которое загадано, но и ко всем вспомогательным словам, которые загадывающий может захотеть объяснить в процессе игры.
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="8.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> При объяснении слова нельзя произносить иностранные слова, которых нет в русском языке, в том числе и для созвучия, например, «хенд по-русски». Однако, если иностранное слово заимствованием перешло в русский язык, называть его можно: «рефрижератор по-простому».
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="9.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Если загадано иностранное слово, допускается говорить, из какого языка оно заимствовано, и произносить перевод: «любослов по-гречески».
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="10.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Если объясняющий называет однокоренное с загаданным слово или иным образом нарушает правила 2-7, он возвращает слово в шляпу (сам или по рекомендации судьи) и передаёт шляпу следующему игроку, тем самым завершив свой ход. Если факт нарушения фиксируется после окончания хода, то слова, загаданные с нарушением  или после него, не засчитываются.
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="11.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Если отгадывающий называет слово, однокоренное загаданному, слово не считается отгаданным. При этом объясняющий может сообщить о том, что загадано однокоренное слово, и попросить уточнить словоформу.
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="12.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Объясняющий, отчаявшийся объяснить вытянутое слово, может вернуть его в шляпу и досрочно закончить объяснение. Заменить слово на другое не разрешается.
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="13.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Время, отведённое на загадывание слов каждой парой игроков, — 20 секунд. После слов судьи «время» объясняющий перестаёт объяснять, а у отгадывающего есть ещё 3 секунды и одно слово на то, чтобы дать ответ, после чего судья говорит «время», и ответы больше не принимаются.
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="14.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> Игроки, не загадывающие и не отгадывающие слово в данный момент, не должны ни мешать, ни помогать играющей паре. Не допускается никаким образом обсуждать ещё не отгаданные слова.
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="15.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPS-BoldMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content"> Спорные ситуации, а также ситуации, не описанные в правилах, разрешаются проводящим игру судьёй.
-</string>
+                                    <fragment content=" Спорные ситуации, а также ситуации, не описанные в правилах, разрешаются проводящим игру судьёй.">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="CourierNewPSMT"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="0.59999999999999998" defaultTabInterval="35.399999999999999"/>
-                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="0.59999999999999998" tailIndent="432" defaultTabInterval="35.399999999999999"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -870,7 +788,7 @@ Cg
         </scene>
     </scenes>
     <resources>
-        <image name="book.png" width="40" height="40"/>
+        <image name="book.png" width="50" height="50"/>
         <image name="down.png" width="40" height="40"/>
         <image name="info-icon.png" width="40" height="40"/>
         <image name="list-view-icon.png" width="40" height="40"/>

@@ -7,7 +7,6 @@
 //
 
 #import "TimerViewController.h"
-#import "IXPickerOverlayView.h"
 #include <mach/mach_time.h>
 
 @interface TimerViewController ()

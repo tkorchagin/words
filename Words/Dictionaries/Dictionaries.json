@@ -3,8 +3,7 @@
 	"Нормальные": "normal_ru",
 	"Сложные": "hard_ru",
 	"Easy": "easy_eng",
-	"Normal": "normal_eng",
+	"Normal": "norm_eng",
 	"Hard": "hard_eng",
-	"Звери": "animals",
-	"Матъ": "mat"
+	"Звери": "animals"
 }

@@ -12,10 +12,6 @@
 		58016E6817B027450075F976 /* big_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 58016E6717B027450075F976 /* big_72.png */; };
 		58016E6A17B027650075F976 /* big_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 58016E6917B027650075F976 /* big_57.png */; };
 		58016E6C17B027770075F976 /* big_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 58016E6B17B027770075F976 /* big_114.png */; };
-		583775CC17A5F94000FB0B2F /* audio-4-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 583775AC17A5F94000FB0B2F /* audio-4-icon.png */; };
-		583775CD17A5F94000FB0B2F /* audio-4-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583775AD17A5F94000FB0B2F /* audio-4-icon@2x.png */; };
-		583775CE17A5F94000FB0B2F /* audio-5-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 583775AE17A5F94000FB0B2F /* audio-5-icon.png */; };
-		583775CF17A5F94000FB0B2F /* audio-5-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583775AF17A5F94000FB0B2F /* audio-5-icon@2x.png */; };
 		583775D017A5F94000FB0B2F /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 583775B017A5F94000FB0B2F /* book.png */; };
 		583775D117A5F94000FB0B2F /* book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583775B117A5F94000FB0B2F /* book@2x.png */; };
 		583775D217A5F94000FB0B2F /* circle-dashed-4-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 583775B217A5F94000FB0B2F /* circle-dashed-4-icon.png */; };
@@ -44,7 +40,6 @@
 		583775E917A5F94000FB0B2F /* timer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583775C917A5F94000FB0B2F /* timer@2x.png */; };
 		583775EA17A5F94000FB0B2F /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 583775CA17A5F94000FB0B2F /* up.png */; };
 		583775EB17A5F94000FB0B2F /* up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583775CB17A5F94000FB0B2F /* up@2x.png */; };
-		584E732D17A5D32000F0F161 /* IXPickerOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586FE6F917A5CB2D00B84227 /* IXPickerOverlayView.m */; };
 		586FE6A717A5B31F00B84227 /* AnimatedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 586FE6A117A5B31F00B84227 /* AnimatedLabel.m */; };
 		586FE6A817A5B31F00B84227 /* DictionariesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586FE6A317A5B31F00B84227 /* DictionariesListViewController.m */; };
 		586FE6A917A5B31F00B84227 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6A417A5B31F00B84227 /* MainStoryboard.storyboard */; };
@@ -52,18 +47,6 @@
 		586FE6E417A5B62200B84227 /* Dictionaries in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6E317A5B62200B84227 /* Dictionaries */; };
 		586FE6E717A5BF0600B84227 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586FE6E617A5BF0600B84227 /* MenuViewController.m */; };
 		586FE6EA17A5C5C200B84227 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586FE6E917A5C5C200B84227 /* TimerViewController.m */; };
-		586FE6FA17A5CB2D00B84227 /* ixPickerOverlayGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6EC17A5CB2D00B84227 /* ixPickerOverlayGlass.png */; };
-		586FE6FB17A5CB2D00B84227 /* ixPickerOverlayGlass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6ED17A5CB2D00B84227 /* ixPickerOverlayGlass@2x.png */; };
-		586FE6FC17A5CB2D00B84227 /* ixPickerOverlayLeftPane.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6EE17A5CB2D00B84227 /* ixPickerOverlayLeftPane.png */; };
-		586FE6FD17A5CB2D00B84227 /* ixPickerOverlayLeftPane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6EF17A5CB2D00B84227 /* ixPickerOverlayLeftPane@2x.png */; };
-		586FE6FE17A5CB2D00B84227 /* ixPickerOverlayRightPane.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6F017A5CB2D00B84227 /* ixPickerOverlayRightPane.png */; };
-		586FE6FF17A5CB2D00B84227 /* ixPickerOverlayRightPane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6F117A5CB2D00B84227 /* ixPickerOverlayRightPane@2x.png */; };
-		586FE70017A5CB2D00B84227 /* ixPickerOverlaySectionsSeparator.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6F217A5CB2D00B84227 /* ixPickerOverlaySectionsSeparator.png */; };
-		586FE70117A5CB2D00B84227 /* ixPickerOverlaySectionsSeparator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6F317A5CB2D00B84227 /* ixPickerOverlaySectionsSeparator@2x.png */; };
-		586FE70217A5CB2D00B84227 /* ixPickerOverlaySectionWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6F417A5CB2D00B84227 /* ixPickerOverlaySectionWheel.png */; };
-		586FE70317A5CB2D00B84227 /* ixPickerOverlaySectionWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6F517A5CB2D00B84227 /* ixPickerOverlaySectionWheel@2x.png */; };
-		586FE70417A5CB2D00B84227 /* ixPickerOverlayTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6F617A5CB2D00B84227 /* ixPickerOverlayTexture.png */; };
-		586FE70517A5CB2D00B84227 /* ixPickerOverlayTexture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 586FE6F717A5CB2D00B84227 /* ixPickerOverlayTexture@2x.png */; };
 		586FE70817A5CE1700B84227 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586FE70717A5CE1700B84227 /* QuartzCore.framework */; };
 		58B53B7317A5B00A00673C0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B53B7217A5B00A00673C0A /* UIKit.framework */; };
 		58B53B7517A5B00A00673C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B53B7417A5B00A00673C0A /* Foundation.framework */; };
@@ -83,10 +66,6 @@
 		58016E6717B027450075F976 /* big_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big_72.png; sourceTree = "<group>"; };
 		58016E6917B027650075F976 /* big_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big_57.png; sourceTree = "<group>"; };
 		58016E6B17B027770075F976 /* big_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big_114.png; sourceTree = "<group>"; };
-		583775AC17A5F94000FB0B2F /* audio-4-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio-4-icon.png"; sourceTree = "<group>"; };
-		583775AD17A5F94000FB0B2F /* audio-4-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio-4-icon@2x.png"; sourceTree = "<group>"; };
-		583775AE17A5F94000FB0B2F /* audio-5-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio-5-icon.png"; sourceTree = "<group>"; };
-		583775AF17A5F94000FB0B2F /* audio-5-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio-5-icon@2x.png"; sourceTree = "<group>"; };
 		583775B017A5F94000FB0B2F /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
 		583775B117A5F94000FB0B2F /* book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book@2x.png"; sourceTree = "<group>"; };
 		583775B217A5F94000FB0B2F /* circle-dashed-4-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-dashed-4-icon.png"; sourceTree = "<group>"; };
@@ -127,20 +106,6 @@
 		586FE6E617A5BF0600B84227 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		586FE6E817A5C5C200B84227 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
 		586FE6E917A5C5C200B84227 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
-		586FE6EC17A5CB2D00B84227 /* ixPickerOverlayGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ixPickerOverlayGlass.png; sourceTree = "<group>"; };
-		586FE6ED17A5CB2D00B84227 /* ixPickerOverlayGlass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ixPickerOverlayGlass@2x.png"; sourceTree = "<group>"; };
-		586FE6EE17A5CB2D00B84227 /* ixPickerOverlayLeftPane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ixPickerOverlayLeftPane.png; sourceTree = "<group>"; };
-		586FE6EF17A5CB2D00B84227 /* ixPickerOverlayLeftPane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ixPickerOverlayLeftPane@2x.png"; sourceTree = "<group>"; };
-		586FE6F017A5CB2D00B84227 /* ixPickerOverlayRightPane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ixPickerOverlayRightPane.png; sourceTree = "<group>"; };
-		586FE6F117A5CB2D00B84227 /* ixPickerOverlayRightPane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ixPickerOverlayRightPane@2x.png"; sourceTree = "<group>"; };
-		586FE6F217A5CB2D00B84227 /* ixPickerOverlaySectionsSeparator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ixPickerOverlaySectionsSeparator.png; sourceTree = "<group>"; };
-		586FE6F317A5CB2D00B84227 /* ixPickerOverlaySectionsSeparator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ixPickerOverlaySectionsSeparator@2x.png"; sourceTree = "<group>"; };
-		586FE6F417A5CB2D00B84227 /* ixPickerOverlaySectionWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ixPickerOverlaySectionWheel.png; sourceTree = "<group>"; };
-		586FE6F517A5CB2D00B84227 /* ixPickerOverlaySectionWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ixPickerOverlaySectionWheel@2x.png"; sourceTree = "<group>"; };
-		586FE6F617A5CB2D00B84227 /* ixPickerOverlayTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ixPickerOverlayTexture.png; sourceTree = "<group>"; };
-		586FE6F717A5CB2D00B84227 /* ixPickerOverlayTexture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ixPickerOverlayTexture@2x.png"; sourceTree = "<group>"; };
-		586FE6F817A5CB2D00B84227 /* IXPickerOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXPickerOverlayView.h; sourceTree = "<group>"; };
-		586FE6F917A5CB2D00B84227 /* IXPickerOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IXPickerOverlayView.m; sourceTree = "<group>"; };
 		586FE70717A5CE1700B84227 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		58B53B6F17A5B00A00673C0A /* words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = words.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B53B7217A5B00A00673C0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -180,10 +145,6 @@
 		583775AB17A5F94000FB0B2F /* icons */ = {
 			isa = PBXGroup;
 			children = (
-				583775AC17A5F94000FB0B2F /* audio-4-icon.png */,
-				583775AD17A5F94000FB0B2F /* audio-4-icon@2x.png */,
-				583775AE17A5F94000FB0B2F /* audio-5-icon.png */,
-				583775AF17A5F94000FB0B2F /* audio-5-icon@2x.png */,
 				583775B017A5F94000FB0B2F /* book.png */,
 				583775B117A5F94000FB0B2F /* book@2x.png */,
 				583775B217A5F94000FB0B2F /* circle-dashed-4-icon.png */,
@@ -214,27 +175,6 @@
 				583775CB17A5F94000FB0B2F /* up@2x.png */,
 			);
 			path = icons;
-			sourceTree = "<group>";
-		};
-		586FE6EB17A5CB2D00B84227 /* IXPickerOverlayView */ = {
-			isa = PBXGroup;
-			children = (
-				586FE6EC17A5CB2D00B84227 /* ixPickerOverlayGlass.png */,
-				586FE6ED17A5CB2D00B84227 /* ixPickerOverlayGlass@2x.png */,
-				586FE6EE17A5CB2D00B84227 /* ixPickerOverlayLeftPane.png */,
-				586FE6EF17A5CB2D00B84227 /* ixPickerOverlayLeftPane@2x.png */,
-				586FE6F017A5CB2D00B84227 /* ixPickerOverlayRightPane.png */,
-				586FE6F117A5CB2D00B84227 /* ixPickerOverlayRightPane@2x.png */,
-				586FE6F217A5CB2D00B84227 /* ixPickerOverlaySectionsSeparator.png */,
-				586FE6F317A5CB2D00B84227 /* ixPickerOverlaySectionsSeparator@2x.png */,
-				586FE6F417A5CB2D00B84227 /* ixPickerOverlaySectionWheel.png */,
-				586FE6F517A5CB2D00B84227 /* ixPickerOverlaySectionWheel@2x.png */,
-				586FE6F617A5CB2D00B84227 /* ixPickerOverlayTexture.png */,
-				586FE6F717A5CB2D00B84227 /* ixPickerOverlayTexture@2x.png */,
-				586FE6F817A5CB2D00B84227 /* IXPickerOverlayView.h */,
-				586FE6F917A5CB2D00B84227 /* IXPickerOverlayView.m */,
-			);
-			path = IXPickerOverlayView;
 			sourceTree = "<group>";
 		};
 		58B53B6617A5B00A00673C0A = {
@@ -279,7 +219,6 @@
 		58B53B7817A5B00A00673C0A /* words */ = {
 			isa = PBXGroup;
 			children = (
-				586FE6EB17A5CB2D00B84227 /* IXPickerOverlayView */,
 				586FE6A017A5B31F00B84227 /* AnimatedLabel.h */,
 				586FE6A117A5B31F00B84227 /* AnimatedLabel.m */,
 				586FE6A217A5B31F00B84227 /* DictionariesListViewController.h */,
@@ -343,7 +282,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = ASPCartman;
 			};
-			buildConfigurationList = 58B53B6A17A5B00A00673C0A /* Build configuration list for PBXProject "words" */;
+			buildConfigurationList = 58B53B6A17A5B00A00673C0A /* Build configuration list for PBXProject "Words" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -368,22 +307,6 @@
 				58B53B7D17A5B00A00673C0A /* InfoPlist.strings in Resources */,
 				586FE6A917A5B31F00B84227 /* MainStoryboard.storyboard in Resources */,
 				586FE6E417A5B62200B84227 /* Dictionaries in Resources */,
-				586FE6FA17A5CB2D00B84227 /* ixPickerOverlayGlass.png in Resources */,
-				586FE6FB17A5CB2D00B84227 /* ixPickerOverlayGlass@2x.png in Resources */,
-				586FE6FC17A5CB2D00B84227 /* ixPickerOverlayLeftPane.png in Resources */,
-				586FE6FD17A5CB2D00B84227 /* ixPickerOverlayLeftPane@2x.png in Resources */,
-				586FE6FE17A5CB2D00B84227 /* ixPickerOverlayRightPane.png in Resources */,
-				586FE6FF17A5CB2D00B84227 /* ixPickerOverlayRightPane@2x.png in Resources */,
-				586FE70017A5CB2D00B84227 /* ixPickerOverlaySectionsSeparator.png in Resources */,
-				586FE70117A5CB2D00B84227 /* ixPickerOverlaySectionsSeparator@2x.png in Resources */,
-				586FE70217A5CB2D00B84227 /* ixPickerOverlaySectionWheel.png in Resources */,
-				586FE70317A5CB2D00B84227 /* ixPickerOverlaySectionWheel@2x.png in Resources */,
-				586FE70417A5CB2D00B84227 /* ixPickerOverlayTexture.png in Resources */,
-				586FE70517A5CB2D00B84227 /* ixPickerOverlayTexture@2x.png in Resources */,
-				583775CC17A5F94000FB0B2F /* audio-4-icon.png in Resources */,
-				583775CD17A5F94000FB0B2F /* audio-4-icon@2x.png in Resources */,
-				583775CE17A5F94000FB0B2F /* audio-5-icon.png in Resources */,
-				583775CF17A5F94000FB0B2F /* audio-5-icon@2x.png in Resources */,
 				583775D017A5F94000FB0B2F /* book.png in Resources */,
 				583775D117A5F94000FB0B2F /* book@2x.png in Resources */,
 				583775D217A5F94000FB0B2F /* circle-dashed-4-icon.png in Resources */,
@@ -464,7 +387,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				584E732D17A5D32000F0F161 /* IXPickerOverlayView.m in Sources */,
 				58B53B7F17A5B00A00673C0A /* main.m in Sources */,
 				58B53B8317A5B00A00673C0A /* TKAppDelegate.m in Sources */,
 				586FE6A717A5B31F00B84227 /* AnimatedLabel.m in Sources */,
@@ -574,7 +496,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B53B6A17A5B00A00673C0A /* Build configuration list for PBXProject "words" */ = {
+		58B53B6A17A5B00A00673C0A /* Build configuration list for PBXProject "Words" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B53B8A17A5B00A00673C0A /* Debug */,

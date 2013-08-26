@@ -7,7 +7,7 @@
 //
 
 #import "AnimatedLabel.h"
-#define DELAY 0.01
+#define DELAY 0.035
 @interface AnimatedLabel ()
 @property (strong) NSOperationQueue *operationQueue;
 
