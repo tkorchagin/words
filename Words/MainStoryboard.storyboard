@@ -798,32 +798,6 @@ Cg
         <image name="timer.png" width="40" height="40"/>
         <image name="up.png" width="40" height="40"/>
     </resources>
-    <classes>
-        <class className="AnimatedLabel" superclassName="UILabel">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AnimatedLabel.h"/>
-        </class>
-        <class className="DictionariesListViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DictionariesListViewController.h"/>
-        </class>
-        <class className="MainViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="dictName" candidateClass="AnimatedLabel"/>
-                <relationship kind="outlet" name="label" candidateClass="AnimatedLabel"/>
-                <relationship kind="outlet" name="prevLabel" candidateClass="AnimatedLabel"/>
-            </relationships>
-        </class>
-        <class className="MenuViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MenuViewController.h"/>
-        </class>
-        <class className="TimerViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TimerViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="timerLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
